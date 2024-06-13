@@ -46,6 +46,7 @@ const styles = [
     imageURL : "https://prettyaspearlz.com/cdn/shop/files/image_309eb015-3c22-4070-b5b2-b81907ba5fa0.heic?v=1688142969",
     name : "Denim Clutch Zeta Style",
     price: 65.00,
+    stars : 4,
     description : "Zeta inspired denim clutch bag with zipper pockets and crossbody straps!! "
   }
 ];

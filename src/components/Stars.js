@@ -7,7 +7,11 @@ export default function Stars(props) {
   let currentRating = style.stars;
   console.log(`Current Rating is : ${style.stars}`)
 
-  
+  let stars=[];
+  for (let i=1;i<=currentRating;i++){
+    let element = <span className="star">&#9733;</span>;
+    stars.push(element);
+  }
 
 
   return (
@@ -18,11 +22,7 @@ export default function Stars(props) {
         name="rating"
         value={currentRating}
       />
-      <span
-        className="star"
-      >
-        &#9733;
-      </span>
+      {stars}
     </label>
     </div>
   );
