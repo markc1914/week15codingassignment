@@ -45,4 +45,11 @@ export default class RemoteStyleService {
     const responseJSON =  await this.handleComplexOpp(url,JSON.stringify(id),"DELETE");
     return !!(responseJSON);
   }
+
+  async editstyle(style) {
+    let url = `${this.baseurl}/styles/${style.id}`;
+    const postData = JSON.stringify(style);
+    const responseJSON = await this.handleComplexOpp(url,postData,"PUT");
+    return !!(responseJSON);
+  }
 }

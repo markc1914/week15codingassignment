@@ -4,7 +4,7 @@ import { Model } from 'survey-core';
 import { Survey } from 'survey-react-ui';
 import { BorderlessDark } from 'survey-core/themes/borderless-dark'
 
-const styleJson = {
+export const styleJson = {
   elements: [{
     name: "name",
     title: "Enter the Item Name: ",

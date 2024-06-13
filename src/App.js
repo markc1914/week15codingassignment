@@ -38,12 +38,20 @@ function App() {
       })
     }
 
+    function handleEditStyle(style,e) {
+      console.log(`App.handleEditStyle(${style.id}, ${e})`);
+      service.editstyle(style).then((success) =>{
+        if(success){
+          reload();
+        }
+      })
+    }
 
     console.log(`App() has ${styles.length} styles`)
 
   return (
     <div className="App">
-      <VerticalTabs styles={styles} handleSubmitStyle={handleSubmitStyle}  handleDeleteStyle={handleDeleteStyle}/>
+      <VerticalTabs styles={styles} handleSubmitStyle={handleSubmitStyle}  handleDeleteStyle={handleDeleteStyle} handleEditStyle={handleEditStyle}/>
     </div>
   );
 }
