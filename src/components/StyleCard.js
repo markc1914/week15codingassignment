@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Stars from './Stars';
 
 export default function StyleCard(props) {
   let style = props.style;
@@ -23,6 +24,7 @@ export default function StyleCard(props) {
           {style.name}
         </Typography>
         <Typography variant="body1" color="text.secondary">
+          Rating : <Stars style={style}/>
           {style.description} 
         </Typography>
       </CardContent>
