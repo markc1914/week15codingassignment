@@ -52,7 +52,7 @@ export default function VerticalTabs(props) {
 
   return (
     <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.dark', display: 'flex', height: 224, width: 1 }}
+      sx={{ flexGrow: 1, bgcolor: 'background.dark', display: 'flex', height: '100%', width: 1 }}
     >
       <Tabs
         orientation="vertical"
@@ -67,7 +67,7 @@ export default function VerticalTabs(props) {
         <Tab label="STYLES" {...a11yProps(0)}  />
         <Tab label="SUBMIT" {...a11yProps(1)} />
       </Tabs>
-      <TabPanel sx={{width:1}} value={value} index={0}>
+      <TabPanel sx={{width:1, height:1}} value={value} index={0}>
         <CardList styles={styles}/>
       </TabPanel>
       <TabPanel value={value} index={1}>

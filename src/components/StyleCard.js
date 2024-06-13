@@ -12,7 +12,7 @@ export default function StyleCard(props) {
 
 
   return (
-    <Card sx={{ maxWidth: 345, minHeight: 500 }}>
+    <Card sx={{ maxWidth: 345, minHeight: 600 }}>
       <CardMedia
         sx={{ minHeight: 300 }}
         image={style.imageURL}

@@ -1,28 +1,30 @@
 import * as React from 'react';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Box from '@mui/material/Box';
+
 import StyleCard from './StyleCard';
-export default function CardList(props) { 
+export default function CardList(props) {
 
-  let {styles} = props || [];
-  console.log (`CardList() got ${styles.length} styles`)
+  let { styles } = props || [];
+  console.log(`CardList() got ${styles.length} styles`)
 
-  let styleElements = styles.map((style,index) => {
+  let styleElements = styles.map((style, index) => {
 
     return (
-      <StyleCard key={style.id} style={style}/>
+      <Grid key={style.id}>
+        <StyleCard key={style.id} style={style} />
+      </Grid>
     )
   });
 
   return (
-    <Box
-      my={4}
-      display="flex"
-      alignItems="center"
-      gap={4}
-      p={2}
-      bgcolor={"background.dark"}
-      sx={{ border: '2px solid grey' }}
-    >
-      {styleElements}
-    </Box>)
+    <Box component="section"  sx={{ flexGrow: 0}}>
+      <Grid
+        container spacing={5}>
+        {styleElements}
+      </Grid>
+    </Box>
+
+
+  )
 }

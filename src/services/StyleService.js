@@ -24,6 +24,29 @@ const styles = [
     price : 99.00,
     stars : 4,
     description : "One piece flare dress with pockets and a belt see size chart!\n Will feature sorority shield"
+  },
+  {
+    id: 4,
+    imageURL : "https://prettyaspearlz.com/cdn/shop/files/IMG-3408.heic?v=1697114156",
+    name : "Zeta Phi Beta Clutch",
+    price : 65.00,
+    stars : 5,
+    description : "Black ZΦΒ clutch .. several compartments inside, including a shoulder strap. Vegan leather",
+  },
+  {
+    id: 5,
+    imageURL : "https://prettyaspearlz.com/cdn/shop/products/image_58ccdc62-b539-453e-ba42-d4c0bf833bce.jpg?v=1653259891",
+    name : "Mz Educated",
+    price : 50.00,
+    stars : 3,
+    description : "IMPORTANT NOTICE : the dress features white trim on the sleeves. This MIDI MAXI length dress is the perfect fit to all your beautiful  curves. It hugs in just the right places. These dresses run to scale. Please see size chart with coordinating numbers."
+  },
+  {
+    id : 6,
+    imageURL : "https://prettyaspearlz.com/cdn/shop/files/image_309eb015-3c22-4070-b5b2-b81907ba5fa0.heic?v=1688142969",
+    name : "Denim Clutch Zeta Style",
+    price: 65.00,
+    description : "Zeta inspired denim clutch bag with zipper pockets and crossbody straps!! "
   }
 ];
 
