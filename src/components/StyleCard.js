@@ -7,6 +7,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Stars from './Stars';
 import DeleteIcon from '@mui/icons-material/Delete';
+import Link from '@mui/material/Link';
+
 
 export default function StyleCard(props) {
   let style = props.style;
@@ -26,9 +28,10 @@ export default function StyleCard(props) {
   return (
     <Card sx={{ maxWidth: 345, minHeight: 800 }}>
       <CardMedia
-        sx={{ minHeight: 400 }}
+        sx={{ minHeight: 600, maxHeight: 600 }}
         image={style.imageURL}
         title={style.name}
+        component="img"
       />
       <CardContent sx={{ minHeight: 300}}>
         <Typography gutterBottom variant="h5" component="span">
@@ -43,6 +46,11 @@ export default function StyleCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
+        <Link
+          component="button"
+          underline='none'>
+            <a href={style.purchaseURL}>Buy Now!</a>
+        </Link>
         <DeleteIcon onClick={onDelete} data-id={style.id}/>
         <Button size="small" onClick={onDelete} data-id={style.id}>Delete</Button>
       </CardActions>

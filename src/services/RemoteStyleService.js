@@ -18,7 +18,8 @@ export default class RemoteStyleService {
           imageURL: style.imageURL,
           stars: style.stars,
           price: style.price,
-          description: style.description
+          description: style.description,
+          purchaseURL : style.purchaseURL
         };
       })
     });

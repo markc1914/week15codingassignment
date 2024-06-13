@@ -28,7 +28,13 @@ const styleJson = {
   },
   {
     name: "imageURL",
-    title: "Enter the image URL: ",
+    title: "Enter the Product image URL: ",
+    type: "text",
+    isRequred: true
+  },
+  {
+    name: "purchaseURL",
+    title: "Enter the Product Purchase URL: ",
     type: "text",
     isRequred: true
   },
