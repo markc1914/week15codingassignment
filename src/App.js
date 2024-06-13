@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import VerticalTabs from './components/VerticalTabs';
 import StyleService from './services/StyleService';
