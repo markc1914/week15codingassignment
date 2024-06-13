@@ -36,14 +36,14 @@ export default function StyleEditor(props) {
     <Box sx={{width: '100%'}}>
       <Box sx={{ minWidth: 120 }}>
         <FormControl fullWidth>
-          <InputLabel variant="standard" htmlFor="uncontrolled-native">
+          <InputLabel variant="standard" htmlFor="style-selector">
             Style To Edit:
           </InputLabel>
           <NativeSelect
             defaultValue={30}
             inputProps={{
               name: 'id',
-              id: 'uncontrolled-native',
+              id: 'style-selctor',
             }}
             onChange={handleChange}
           >

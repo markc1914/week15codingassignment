@@ -1,24 +1,3 @@
-.grown-greeks-banner {
-  max-width: 100%;
-  height: auto;
-}
-
-#vertical-tabpanel-0 {
-  width: 100%;
-}
-
-#vertical-tabpanel-1 {
-  width: 100%;
-}
-
-#vertical-tabpanel-2 {
-  width: 100%;
-}
-
-#logo-img{
-  max-height: 200px;
-}
-
 #style-selector{
   font-size: 14px;
   color: white;
@@ -43,4 +22,9 @@
 button {
   color:white;
   font-size : x-large;
+}
+
+select {
+  color: white;
+  font-size: x-large;
 }

@@ -1,22 +1,13 @@
 {
   "styles": [
     {
-      "id": "11c45207-c403-44d1-9ac3-fd9c2c747df3",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/IMG-3170.jpg?v=1695345697",
-      "name": "1920 School Girl Sweater",
-      "price": 45,
-      "stars": 5,
-      "description": "Thin sweater material with 1920 on the chest and ΖΦΒ on the left sleeve wrist",
-      "purchaseURL": "https://prettyaspearlz.com/products/1920-school-girl-sweater"
-    },
-    {
-      "id": "5c8d5375-7380-49c1-910d-a7f843304c9e",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_5f5e1cf1-ffa0-4793-b945-b2c1a03f0b42.jpg?v=1655764111",
       "name": "The Zeta Chloe",
-      "price": 89,
-      "stars": 5,
       "description": "This is a faux wrap dress with belt and pockets…this dress fits true to size. Perfect for conferences. Zeta collection",
-      "purchaseURL": "https://prettyaspearlz.com/products/the-chloe"
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_5f5e1cf1-ffa0-4793-b945-b2c1a03f0b42.jpg?v=1655764111",
+      "purchaseURL": "https://prettyaspearlz.com/products/the-chloe",
+      "price": 89,
+      "stars": 4,
+      "id": "5c8d5375-7380-49c1-910d-a7f843304c9e"
     },
     {
       "id": "c5c2c229-f645-4673-95c7-88f3dd220759",
@@ -37,13 +28,13 @@
       "purchaseURL": "https://prettyaspearlz.com/products/all-black-clutch"
     },
     {
-      "id": "1b360bd0-49ed-4570-bd8c-305f88457a01",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_58ccdc62-b539-453e-ba42-d4c0bf833bce.jpg?v=1653259891",
       "name": "Mz Educated",
-      "price": 50,
-      "stars": 3,
       "description": "IMPORTANT NOTICE : the dress features white trim on the sleeves. This MAXI length dress is the perfect fit to all your beautiful  curves. It hugs in just the right places. These dresses run to scale. Please see size chart with coordinating numbers.",
-      "purchaseURL": "https://prettyaspearlz.com/products/mz-education"
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_58ccdc62-b539-453e-ba42-d4c0bf833bce.jpg?v=1653259891",
+      "purchaseURL": "https://prettyaspearlz.com/products/mz-education",
+      "price": 50.99,
+      "stars": 4,
+      "id": "1b360bd0-49ed-4570-bd8c-305f88457a01"
     },
     {
       "id": "cde186ab-a87e-4f44-9bab-52f4026e8496",
@@ -62,6 +53,15 @@
       "stars": 4,
       "imageURL": "https://prettyaspearlz.com/cdn/shop/files/image_fce664dc-b2a4-4ef7-ba40-c2d4571fcb69.heic?v=1684551356",
       "purchaseURL": "https://prettyaspearlz.com/products/the-london-1"
+    },
+    {
+      "name": "1920 school girl sweater",
+      "description": "Thin sweater material with 1920 on the chest and ΖΦΒ on the left sleeve wrist",
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/IMG-3169.jpg?v=1695345697",
+      "purchaseURL": "https://prettyaspearlz.com/products/1920-school-girl-sweater",
+      "price": 45,
+      "stars": 5,
+      "id": "28e2"
     }
   ]
 }

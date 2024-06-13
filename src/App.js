@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import VerticalTabs from './components/VerticalTabs';
 import RemoteStyleService from './services/RemoteStyleService';
+import './components/ComponentStyle.css';
 
 let service = new RemoteStyleService();
 
