@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import VerticalTabs from './components/VerticalTabs';
+import StyleService from './services/StyleService';
+
+let service = new StyleService();
 
 function App() {
+    
+    const [styles, setStyles] = useState([]);
+
+    service.allStyles().then(results => {
+      console.log(`service() returned ${results.length} styles`);
+      setStyles(results);
+    });
+    
+    console.log(`App() has ${styles.length} styles`)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <VerticalTabs styles={styles}/>
     </div>
   );
 }
