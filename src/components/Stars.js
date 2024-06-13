@@ -3,8 +3,8 @@ import "./StarStyle.css";
 
 export default function Stars(props) {
 
-  let style = props.style;
-  let currentRating = style.stars;
+  let {style, numstars} = props;
+  let currentRating = numstars;
   console.log(`Current Rating is : ${style.stars}`)
 
   let stars=[];

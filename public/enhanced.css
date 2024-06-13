@@ -15,6 +15,9 @@
   width: 100%;
 }
 
+#vertical-tabpanel-3 {
+  width: 75%;
+}
 #logo-img{
   max-height: 200px;
 }

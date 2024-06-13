@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import CardList from './CardList';
 import StyleForm from './StyleForm';
 import StyleEditor from './StyleEditor';
+import ReviewTab from './ReviewTab';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -69,6 +70,8 @@ export default function VerticalTabs(props) {
         <Tab label="STYLES" {...a11yProps(0)} sx={{fontSize: 'x-large', color : 'white'}} />
         <Tab label="EDIT" {...a11yProps(1)} sx={{fontSize: 'x-large', color : 'white'}} />
         <Tab label="SUBMIT NEW STYLE" {...a11yProps(2)} sx={{fontSize: 'x-large', color : 'white'}} />
+        <Tab label="REVIEW A STYLE" {...a11yProps(3)} sx={{fontSize: 'x-large', color : 'white'}} />
+        
       </Tabs>
       <TabPanel sx={{width:1, height:1}} value={value} index={0}>
         <CardList styles={styles} handleDeleteStyle={handleDeleteStyle}/>
@@ -78,6 +81,9 @@ export default function VerticalTabs(props) {
       </TabPanel>
       <TabPanel sx={{width:500}} value={value} index={2}>
         <StyleForm handleSubmitStyle={handleSubmitStyle}/>
+      </TabPanel>
+      <TabPanel sx={{width:'100%'}} value={value} index={3}>
+        <ReviewTab styles={styles} handleSubmitReview={{handleEditStyle}}/>
       </TabPanel>
     </Box>
   );

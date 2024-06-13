@@ -26,7 +26,7 @@ export default function StyleCard(props) {
   }
 
   return (
-    <Card sx={{ maxWidth: 345, minHeight: 800 }}>
+    <Card sx={{ maxWidth: 600, minHeight: 800 }}>
       <CardMedia
         sx={{ minHeight: 600, maxHeight: 600 }}
         image={style.imageURL}
@@ -41,7 +41,7 @@ export default function StyleCard(props) {
           Price: ${style.price}
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Rating : <Stars style={style}/><br/>
+          Rating : <Stars style={style} numstars={style.stars}/><br/>
           {style.description}
         </Typography>
       </CardContent>

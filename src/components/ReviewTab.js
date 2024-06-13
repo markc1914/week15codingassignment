@@ -4,13 +4,14 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import NativeSelect from '@mui/material/NativeSelect';
-import StyleEditForm from './StyleEditForm';
-import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import StyleCard from './StyleCard';
 
+export default function ReviewTab(props) {
+  const [styleCard, setStyleCard] = useState('');
+  const [reviewList, setReviewList] = useState([]);
 
-export default function StyleEditor(props) {
-  const [editform, setEditForm] = useState(<></>);
-  let { styles, handleEditStyle } = props;
+  let { styles, handleSubmitReview } = props;
   let selected;
 
   let styleElements = styles.map((style, index) => {
@@ -24,24 +25,23 @@ export default function StyleEditor(props) {
     selected = e.target.value;
     let selectedStyle;
     if (selected) {
-      selectedStyle = styles.filter(style =>{
+      selectedStyle = styles.filter(style => {
         return style.id === selected;
       })[0];
     }
-    if(selectedStyle){
+    if (selectedStyle) {
       console.log(`Selected style is ${selectedStyle.id}`);
-      setEditForm(<StyleEditForm styleToEdit={selectedStyle} idToEdit={selectedStyle.id} handleEditStyle={handleEditStyle}/>);
-
+      setStyleCard(<StyleCard style={selectedStyle} />);
     }
   }
+
   return (
-    <Box sx={{width: '100%'}}>
-      <Box sx={{ minWidth: 120 }} mb={5} mt={5}>
+    <Box sx={{ width: '100%' }}>
+      <Box mb={3} sx={{width:'25%'}}>
         <FormControl fullWidth>
-          <InputLabel variant="standard" htmlFor="style-selector" sx={{height:200, fontSize:'x-large'}} >
-            <Typography gutterBottom variant="h5" mb={1} sx={{fontSize:'x-large'}}>Pick</Typography>
+          <InputLabel variant="standard" htmlFor="style-selector" sx={{ height: 200, fontSize: 'x-large' }} >
           </InputLabel>
-          <NativeSelect sx={{fontSize: 'x-large', color : 'white'}}
+          <NativeSelect sx={{ fontSize: 'x-large', color: 'white' }}
             defaultValue={''}
             inputProps={{
               name: 'Style to Edit',
@@ -54,7 +54,14 @@ export default function StyleEditor(props) {
           </NativeSelect>
         </FormControl>
       </Box>
-      {editform}
+      <Box sx={{ width: '100&' }}>
+        <Grid container spacing={5}>
+          <Grid xs={8}>
+            {styleCard}
+          </Grid>
+        </Grid>
+      </Box>
     </Box>
-  );
+  )
+
 }
