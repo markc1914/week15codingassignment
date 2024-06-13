@@ -64,11 +64,11 @@ export default function VerticalTabs(props) {
         textColor="primary"
         indicatorColor="secondary"
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: 'divider'}}
+        sx={{ borderRight: 1, borderColor: 'divider', fontSize: 'x-large'}}
       >
-        <Tab label="STYLES" {...a11yProps(0)}  />
-        <Tab label="EDIT" {...a11yProps(1)} />
-        <Tab label="SUBMIT NEW" {...a11yProps(2)} />
+        <Tab label="STYLES" {...a11yProps(0)} sx={{fontSize: 'x-large', color : 'white'}} />
+        <Tab label="EDIT" {...a11yProps(1)} sx={{fontSize: 'x-large', color : 'white'}} />
+        <Tab label="SUBMIT NEW STYLE" {...a11yProps(2)} sx={{fontSize: 'x-large', color : 'white'}} />
       </Tabs>
       <TabPanel sx={{width:1, height:1}} value={value} index={0}>
         <CardList styles={styles} handleDeleteStyle={handleDeleteStyle}/>

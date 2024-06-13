@@ -36,13 +36,14 @@ export default function StyleEditor(props) {
     <Box sx={{width: '100%'}}>
       <Box sx={{ minWidth: 120 }}>
         <FormControl fullWidth>
-          <InputLabel variant="standard" htmlFor="style-selector">
-            Style To Edit:
+          <box sx={{minHeigh : 100, margin : 5}}>
+          <InputLabel variant="standard" htmlFor="style-selector" sx={{height:200, fontSize:'x-large'}} >
           </InputLabel>
-          <NativeSelect
-            defaultValue={30}
+          </box>
+          <NativeSelect sx={{fontSize: 'x-large', color : 'white'}}
+            defaultValue={''}
             inputProps={{
-              name: 'id',
+              name: 'Style to Edit',
               id: 'style-selctor',
             }}
             onChange={handleChange}

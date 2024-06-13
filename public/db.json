@@ -1,12 +1,12 @@
 {
   "styles": [
     {
-      "name": "The Zeta Chloe",
-      "description": "This is a faux wrap dress with belt and pockets…this dress fits true to size. Perfect for conferences. Zeta collection",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_5f5e1cf1-ffa0-4793-b945-b2c1a03f0b42.jpg?v=1655764111",
-      "purchaseURL": "https://prettyaspearlz.com/products/the-chloe",
-      "price": 89,
-      "stars": 4,
+      "name": "Denim Clutch Zeta Style",
+      "description": "Zeta inspired denim clutch bag with zipper pockets and crossbody straps!!",
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/image_309eb015-3c22-4070-b5b2-b81907ba5fa0.heic?v=1688142969",
+      "purchaseURL": "https://prettyaspearlz.com/products/denim-clutch",
+      "price": 65,
+      "stars": 5,
       "id": "5c8d5375-7380-49c1-910d-a7f843304c9e"
     },
     {
@@ -62,6 +62,15 @@
       "price": 45,
       "stars": 5,
       "id": "28e2"
+    },
+    {
+      "id": "ed69",
+      "price": 65,
+      "name": "The Finer Tee Shirt Dress",
+      "description": "The high low tee shirt/dress is everything! This tee shirt /dress comes large, larger and pleasingly plus!!! The front words speak to who you are and who you are becoming!!! ",
+      "stars": 4,
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_f01f8b7d-41a7-494a-9893-0add50315893.jpg?v=1656464449&width=600",
+      "purchaseURL": "https://prettyaspearlz.com/products/the-finer-tee-shirt-dress"
     }
   ]
 }
