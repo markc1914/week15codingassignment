@@ -2,20 +2,19 @@ import "./StarStyle.css";
 
 
 export default function Stars(props) {
-  
+
   let style = props.style;
   let currentRating = style.stars;
   console.log(`Current Rating is : ${style.stars}`)
 
   let stars=[];
   for (let i=1;i<=currentRating;i++){
-    let element = <span className="star">&#9733;</span>;
+    let element = <span key={i} className="star">&#9733;</span>;
     stars.push(element);
   }
 
 
   return (
-    <div>
     <label key={style.id}>
       <input
         type="radio"
@@ -24,6 +23,5 @@ export default function Stars(props) {
       />
       {stars}
     </label>
-    </div>
   );
 }

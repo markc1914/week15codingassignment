@@ -5,14 +5,14 @@ import Box from '@mui/material/Box';
 import StyleCard from './StyleCard';
 export default function CardList(props) {
 
-  let { styles } = props || [];
+  let { styles, handleDeleteStyle } = props || [];
   console.log(`CardList() got ${styles.length} styles`)
 
   let styleElements = styles.map((style, index) => {
 
     return (
       <Grid key={style.id}>
-        <StyleCard key={style.id} style={style} />
+        <StyleCard key={style.id} style={style} handleDeleteStyle={handleDeleteStyle} />
       </Grid>
     )
   });

@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import CardList from './CardList';
+import StyleForm from './StyleForm';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -40,7 +41,9 @@ function a11yProps(index) {
 }
 
 export default function VerticalTabs(props) {
-  let styles = props.styles ;
+  let styles = props.styles;
+  let handleSubmitStyle = props.handleSubmitStyle;
+  let handleDeleteStyle = props.handleDeleteStyle;
 
   console.log (`Vertical Tabs got ${styles.length} styles`);
 
@@ -68,10 +71,10 @@ export default function VerticalTabs(props) {
         <Tab label="SUBMIT" {...a11yProps(1)} />
       </Tabs>
       <TabPanel sx={{width:1, height:1}} value={value} index={0}>
-        <CardList styles={styles}/>
+        <CardList styles={styles} handleDeleteStyle={handleDeleteStyle}/>
       </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
+      <TabPanel sx={{width:500}} value={value} index={1}>
+        <StyleForm handleSubmitStyle={handleSubmitStyle}/>
       </TabPanel>
     </Box>
   );

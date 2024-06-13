@@ -6,31 +6,45 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Stars from './Stars';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 export default function StyleCard(props) {
   let style = props.style;
-  console.log(props);
+  let handleDeleteStyle = props.handleDeleteStyle;
+  console.log(`handleDeleteStyle is ${handleDeleteStyle}`);
 
+  function onDelete(e){
+    console.log(`StyleCard.onDelete() called with ${e.target}`);
+    let element = e.target;
+    console.log(element.dataset);
+    let styleId = element.dataset.id;
+    if(handleDeleteStyle){
+      handleDeleteStyle(styleId,e);
+    }
+  }
 
   return (
-    <Card sx={{ maxWidth: 345, minHeight: 600 }}>
+    <Card sx={{ maxWidth: 345, minHeight: 800 }}>
       <CardMedia
-        sx={{ minHeight: 300 }}
+        sx={{ minHeight: 400 }}
         image={style.imageURL}
         title={style.name}
       />
-      <CardContent>
+      <CardContent sx={{ minHeight: 300}}>
         <Typography gutterBottom variant="h5" component="span">
           {style.name}
+        </Typography><br/>
+        <Typography gutterBottom variant="h6" component="span">
+          Price: ${style.price}
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Rating : <Stars style={style}/>
-          {style.description} 
+          Rating : <Stars style={style}/><br/>
+          {style.description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <DeleteIcon onClick={onDelete} data-id={style.id}/>
+        <Button size="small" onClick={onDelete} data-id={style.id}>Delete</Button>
       </CardActions>
     </Card>
   );
