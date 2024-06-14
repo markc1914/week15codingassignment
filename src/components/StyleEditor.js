@@ -31,7 +31,8 @@ export default function StyleEditor(props) {
     if(selectedStyle){
       console.log(`Selected style is ${selectedStyle.id}`);
       setEditForm(<StyleEditForm styleToEdit={selectedStyle} idToEdit={selectedStyle.id} handleEditStyle={handleEditStyle}/>);
-
+    } else {
+      setEditForm(<></>);
     }
   }
   return (

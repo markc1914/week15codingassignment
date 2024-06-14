@@ -38,6 +38,10 @@ export default function ReviewTab(props) {
       setStyleCard(<StyleCard style={selectedStyle} />);
       setReviewList(<ReviewList style={selectedStyle} />);
       setReviewForm(<ReviewForm style={selectedStyle} handleEditStyle={handleEditStyle} />);
+    } else {
+      setStyleCard(<></>);
+      setReviewList(<></>);
+      setReviewForm(<></>);
     }
   }
 
