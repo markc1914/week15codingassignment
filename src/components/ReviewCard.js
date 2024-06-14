@@ -5,6 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Stars from './Stars';
 
 const bull = (
   <Box
@@ -19,14 +20,14 @@ export default function ReviewCard(props) {
   let {style, review} = props;
 
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ minWidth: 275, margin: 1}}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Date: {review.reviewDate}
         </Typography>
         <Typography variant="h5" component="div">
-          Review Summary {review.summary}
-        </Typography>
+          Review Summary: {review.summary}
+        </Typography><br/>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
           <Stars style={style} numstars={review.stars}/>
         </Typography>
@@ -34,9 +35,6 @@ export default function ReviewCard(props) {
           {review.detailedReview}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
     </Card>
   );
 }

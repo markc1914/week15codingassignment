@@ -61,6 +61,7 @@ export default function StyleForm(props) {
 
   const surveyComplete = useCallback((survey, e) => {
     let style = survey.valuesHash;
+    style.reviews = [];
     console.log(style);
     if(handleSubmitStyle) {
       handleSubmitStyle(style, e);

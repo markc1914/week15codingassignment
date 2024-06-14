@@ -83,7 +83,7 @@ export default function VerticalTabs(props) {
         <StyleForm handleSubmitStyle={handleSubmitStyle}/>
       </TabPanel>
       <TabPanel sx={{width:'100%'}} value={value} index={3}>
-        <ReviewTab styles={styles} handleSubmitReview={{handleEditStyle}}/>
+        <ReviewTab styles={styles} handleEditStyle={handleEditStyle}/>
       </TabPanel>
     </Box>
   );

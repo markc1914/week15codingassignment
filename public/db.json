@@ -1,31 +1,38 @@
 {
   "styles": [
     {
-      "name": "Denim Clutch Zeta Style",
-      "description": "Zeta inspired denim clutch bag with zipper pockets and crossbody straps!!",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/image_309eb015-3c22-4070-b5b2-b81907ba5fa0.heic?v=1688142969",
-      "purchaseURL": "https://prettyaspearlz.com/products/denim-clutch",
-      "price": 65,
-      "stars": 5,
-      "id": "5c8d5375-7380-49c1-910d-a7f843304c9e"
-    },
-    {
       "id": "c5c2c229-f645-4673-95c7-88f3dd220759",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_993ff25e-ce21-40ed-9f01-75c323344296.jpg?v=1654948013",
       "name": "She Got Flare",
-      "price": 95,
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_993ff25e-ce21-40ed-9f01-75c323344296.jpg?v=1654948013",
       "stars": 4,
+      "price": 95,
       "description": "One piece flare dress with pockets and a belt see size chart!\n Will feature sorority shield",
-      "purchaseURL": "https://prettyaspearlz.com/products/she-got-flare"
+      "purchaseURL": "https://prettyaspearlz.com/products/she-got-flare",
+      "reviews": [
+        {
+          "stars": 3,
+          "summary": "Shorter than I expected",
+          "detailedReview": "Varius duis at consectetur lorem. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Congue mauris rhoncus aenean vel elit scelerisque mauris. Et malesuada fames ac turpis egestas integer. Arcu ac tortor dignissim convallis aenean. Netus et malesuada fames ac turpis egestas. Rhoncus est pellentesque elit ullamcorper. Facilisis mauris sit amet massa vitae tortor condimentum. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Amet porttitor eget dolor morbi. Neque convallis a cras semper auctor neque vitae tempus. Donec enim diam vulputate ut. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Vitae congue eu consequat ac felis donec. Massa tempor nec feugiat nisl pretium fusce id.",
+          "reviewDate": "2024-06-14T01:01:27.121Z"
+        }
+      ]
     },
     {
       "id": "4c2236b9-be3e-4516-972c-abf089e5ea69",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/IMG-3408.heic?v=1697114156",
       "name": "Zeta Phi Beta Clutch",
-      "price": 65,
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/IMG-3408.heic?v=1697114156",
       "stars": 5,
+      "price": 65,
       "description": "Black ZΦΒ clutch .. several compartments inside, including a shoulder strap. Vegan leather",
-      "purchaseURL": "https://prettyaspearlz.com/products/all-black-clutch"
+      "purchaseURL": "https://prettyaspearlz.com/products/all-black-clutch",
+      "reviews": [
+        {
+          "summary": "This is my favorite",
+          "detailedReview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Purus in mollis nunc sed id semper risus in. Sed euismod nisi porta lorem mollis. Arcu non odio euismod lacinia at quis risus sed. Faucibus in ornare quam viverra orci sagittis eu volutpat. Mus mauris vitae ultricies leo. A condimentum vitae sapien pellentesque. Malesuada fames ac turpis egestas sed tempus urna et. Tempor orci eu lobortis elementum nibh tellus. Vel pretium lectus quam id leo in vitae.",
+          "stars": 5,
+          "reviewDate": "2024-06-14T00:31:41.767Z"
+        }
+      ]
     },
     {
       "name": "Mz Educated",
@@ -34,16 +41,25 @@
       "purchaseURL": "https://prettyaspearlz.com/products/mz-education",
       "price": 50.99,
       "stars": 4,
-      "id": "1b360bd0-49ed-4570-bd8c-305f88457a01"
+      "id": "1b360bd0-49ed-4570-bd8c-305f88457a01",
+      "reviews": []
     },
     {
       "id": "cde186ab-a87e-4f44-9bab-52f4026e8496",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/image_309eb015-3c22-4070-b5b2-b81907ba5fa0.heic?v=1688142969",
       "name": "Denim Clutch Zeta Style",
-      "price": 65,
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/image_309eb015-3c22-4070-b5b2-b81907ba5fa0.heic?v=1688142969",
       "stars": 4,
+      "price": 65,
       "description": "Zeta inspired denim clutch bag with zipper pockets and crossbody straps!!",
-      "purchaseURL": "https://prettyaspearlz.com/products/denim-clutch"
+      "purchaseURL": "https://prettyaspearlz.com/products/denim-clutch",
+      "reviews": [
+        {
+          "summary": "Good bag",
+          "detailedReview": "Leo vel fringilla est ullamcorper. Integer eget aliquet nibh praesent. A iaculis at erat pellentesque adipiscing. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Dolor magna eget est lorem ipsum. Phasellus vestibulum lorem sed risus. Eu mi bibendum neque egestas congue quisque egestas. Molestie ac feugiat sed lectus. Vulputate eu scelerisque felis imperdiet proin fermentum. Nunc sed augue lacus viverra vitae congue eu consequat ac. Id porta nibh venenatis cras. Sed felis eget velit aliquet sagittis id consectetur. Turpis egestas sed tempus urna et pharetra pharetra. Volutpat consequat mauris nunc congue nisi vitae. Leo vel orci porta non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum arcu vitae elementum curabitur. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Montes nascetur ridiculus mus mauris vitae ultricies. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.",
+          "stars": 4,
+          "reviewDate": "2024-06-14T00:45:35.718Z"
+        }
+      ]
     },
     {
       "id": "4b55",
@@ -52,25 +68,60 @@
       "description": "Two piece dress set. Halter and duster combo.Royal blue and white halter dress with matching duster. Size up one for a better fit on the duster. The both have stretch!",
       "stars": 4,
       "imageURL": "https://prettyaspearlz.com/cdn/shop/files/image_fce664dc-b2a4-4ef7-ba40-c2d4571fcb69.heic?v=1684551356",
-      "purchaseURL": "https://prettyaspearlz.com/products/the-london-1"
+      "purchaseURL": "https://prettyaspearlz.com/products/the-london-1",
+      "reviews": []
     },
     {
+      "id": "28e2",
       "name": "1920 school girl sweater",
-      "description": "Thin sweater material with 1920 on the chest and ΖΦΒ on the left sleeve wrist",
       "imageURL": "https://prettyaspearlz.com/cdn/shop/files/IMG-3169.jpg?v=1695345697",
-      "purchaseURL": "https://prettyaspearlz.com/products/1920-school-girl-sweater",
-      "price": 45,
       "stars": 5,
-      "id": "28e2"
+      "price": 45,
+      "description": "Thin sweater material with 1920 on the chest and ΖΦΒ on the left sleeve wrist",
+      "purchaseURL": "https://prettyaspearlz.com/products/1920-school-girl-sweater",
+      "reviews": [
+        {
+          "summary": "Love it",
+          "detailedReview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Purus in mollis nunc sed id semper risus in. Sed euismod nisi porta lorem mollis. Arcu non odio euismod lacinia at quis risus sed. Faucibus in ornare quam viverra orci sagittis eu volutpat. Mus mauris vitae ultricies leo. A condimentum vitae sapien pellentesque. Malesuada fames ac turpis egestas sed tempus urna et. Tempor orci eu lobortis elementum nibh tellus. Vel pretium lectus quam id leo in vitae.",
+          "stars": 5,
+          "reviewDate": "2024-06-14T00:32:48.534Z"
+        },
+        {
+          "summary": "I like it even more than the last person",
+          "detailedReview": "Porttitor massa id neque aliquam. Faucibus turpis in eu mi bibendum. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Non curabitur gravida arcu ac tortor. Massa tincidunt dui ut ornare. Vel facilisis volutpat est velit egestas dui id. Hac habitasse platea dictumst quisque sagittis purus. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Pulvinar etiam non quam lacus suspendisse faucibus. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Hac habitasse platea dictumst quisque.",
+          "stars": 5,
+          "reviewDate": "2024-06-14T00:40:16.146Z"
+        },
+        {
+          "summary": "You MUST get this Sweater!!!",
+          "detailedReview": "Leo vel fringilla est ullamcorper. Integer eget aliquet nibh praesent. A iaculis at erat pellentesque adipiscing. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Dolor magna eget est lorem ipsum. Phasellus vestibulum lorem sed risus. Eu mi bibendum neque egestas congue quisque egestas. Molestie ac feugiat sed lectus. Vulputate eu scelerisque felis imperdiet proin fermentum. Nunc sed augue lacus viverra vitae congue eu consequat ac. Id porta nibh venenatis cras. Sed felis eget velit aliquet sagittis id consectetur. Turpis egestas sed tempus urna et pharetra pharetra. Volutpat consequat mauris nunc congue nisi vitae. Leo vel orci porta non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum arcu vitae elementum curabitur. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Montes nascetur ridiculus mus mauris vitae ultricies. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.",
+          "stars": 5,
+          "reviewDate": "2024-06-14T00:43:53.930Z"
+        },
+        {
+          "summary": "Could be a little shorter",
+          "detailedReview": "Leo vel fringilla est ullamcorper. Integer eget aliquet nibh praesent. A iaculis at erat pellentesque adipiscing. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Dolor magna eget est lorem ipsum. Phasellus vestibulum lorem sed risus. Eu mi bibendum neque egestas congue quisque egestas. Molestie ac feugiat sed lectus. Vulputate eu scelerisque felis imperdiet proin fermentum. Nunc sed augue lacus viverra vitae congue eu consequat ac. Id porta nibh venenatis cras. Sed felis eget velit aliquet sagittis id consectetur. Turpis egestas sed tempus urna et pharetra pharetra. Volutpat consequat mauris nunc congue nisi vitae. Leo vel orci porta non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum arcu vitae elementum curabitur. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Montes nascetur ridiculus mus mauris vitae ultricies. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.",
+          "stars": 3,
+          "reviewDate": "2024-06-14T00:50:03.228Z"
+        }
+      ]
     },
     {
       "id": "ed69",
-      "price": 65,
       "name": "The Finer Tee Shirt Dress",
-      "description": "The high low tee shirt/dress is everything! This tee shirt /dress comes large, larger and pleasingly plus!!! The front words speak to who you are and who you are becoming!!! ",
-      "stars": 4,
       "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_f01f8b7d-41a7-494a-9893-0add50315893.jpg?v=1656464449&width=600",
-      "purchaseURL": "https://prettyaspearlz.com/products/the-finer-tee-shirt-dress"
+      "stars": 4,
+      "price": 65,
+      "description": "The high low tee shirt/dress is everything! This tee shirt /dress comes large, larger and pleasingly plus!!! The front words speak to who you are and who you are becoming!!! ",
+      "purchaseURL": "https://prettyaspearlz.com/products/the-finer-tee-shirt-dress",
+      "reviews": [
+        {
+          "summary": "Could Be a little Shorter",
+          "detailedReview": "Leo vel fringilla est ullamcorper. Integer eget aliquet nibh praesent. A iaculis at erat pellentesque adipiscing. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Dolor magna eget est lorem ipsum. Phasellus vestibulum lorem sed risus. Eu mi bibendum neque egestas congue quisque egestas. Molestie ac feugiat sed lectus. Vulputate eu scelerisque felis imperdiet proin fermentum. Nunc sed augue lacus viverra vitae congue eu consequat ac. Id porta nibh venenatis cras. Sed felis eget velit aliquet sagittis id consectetur. Turpis egestas sed tempus urna et pharetra pharetra. Volutpat consequat mauris nunc congue nisi vitae. Leo vel orci porta non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum arcu vitae elementum curabitur. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Montes nascetur ridiculus mus mauris vitae ultricies. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.",
+          "stars": 5,
+          "reviewDate": "2024-06-14T00:50:55.782Z"
+        }
+      ]
     }
   ]
 }

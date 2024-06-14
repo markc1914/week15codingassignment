@@ -6,12 +6,15 @@ import FormControl from '@mui/material/FormControl';
 import NativeSelect from '@mui/material/NativeSelect';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import StyleCard from './StyleCard';
+import ReviewList from './ReviewList';
+import ReviewForm from './ReviewForm';
 
 export default function ReviewTab(props) {
   const [styleCard, setStyleCard] = useState('');
-  const [reviewList, setReviewList] = useState([]);
+  const [reviewList, setReviewList] = useState('');
+  const [reviewForm, setReviewForm] = useState('');
 
-  let { styles, handleSubmitReview } = props;
+  let { styles, handleEditStyle } = props;
   let selected;
 
   let styleElements = styles.map((style, index) => {
@@ -29,15 +32,18 @@ export default function ReviewTab(props) {
         return style.id === selected;
       })[0];
     }
+
     if (selectedStyle) {
       console.log(`Selected style is ${selectedStyle.id}`);
       setStyleCard(<StyleCard style={selectedStyle} />);
+      setReviewList(<ReviewList style={selectedStyle} />);
+      setReviewForm(<ReviewForm style={selectedStyle} handleEditStyle={handleEditStyle} />);
     }
   }
 
   return (
     <Box sx={{ width: '100%' }}>
-      <Box mb={3} sx={{width:'25%'}}>
+      <Box mb={3} sx={{ width: '25%' }}>
         <FormControl fullWidth>
           <InputLabel variant="standard" htmlFor="style-selector" sx={{ height: 200, fontSize: 'x-large' }} >
           </InputLabel>
@@ -54,11 +60,11 @@ export default function ReviewTab(props) {
           </NativeSelect>
         </FormControl>
       </Box>
-      <Box sx={{ width: '100&' }}>
+      <Box component="section" sx={{ flexGrow: 0 }}>
         <Grid container spacing={5}>
-          <Grid xs={8}>
-            {styleCard}
-          </Grid>
+          {styleCard}
+          {reviewList}
+          {reviewForm}
         </Grid>
       </Box>
     </Box>

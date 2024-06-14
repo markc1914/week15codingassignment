@@ -19,7 +19,8 @@ export default class RemoteStyleService {
           stars: style.stars,
           price: style.price,
           description: style.description,
-          purchaseURL : style.purchaseURL
+          purchaseURL : style.purchaseURL,
+          reviews : style.reviews
         };
       })
     });
