@@ -17,6 +17,7 @@ export default function StyleEditForm(props) {
 
   const surveyComplete = useCallback((survey, e) => {
     let style = survey.valuesHash
+    style.reviews = styleToEdit.reviews;
     style.id = idToEdit;
     console.log(style);
     if (handleEditStyle) {

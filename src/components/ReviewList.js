@@ -5,11 +5,14 @@ import ReviewCard from './ReviewCard';
 export default function ReviewList(props) {
   let {style} = props;
 
-  let reviewElements = style.reviews.map((review, index) =>{
-    return(
-      <ReviewCard style={style} review={review} key={`#${index}`}/>
-    );
-  });
+  let reviewElements = <></>;
+  if (style.reviews) {
+    reviewElements = style.reviews.map((review, index) =>{
+      return(
+        <ReviewCard style={style} review={review} key={`#${index}`}/>
+      );
+    });  
+  }
 
   return(
     <Box sx={{width:'30%', margin: 5}}>
