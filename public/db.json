@@ -1,13 +1,12 @@
 {
   "styles": [
     {
-      "id": "c5c2c229-f645-4673-95c7-88f3dd220759",
       "name": "She Got Flare",
-      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_993ff25e-ce21-40ed-9f01-75c323344296.jpg?v=1654948013",
-      "stars": 4,
-      "price": 95,
       "description": "One piece flare dress with pockets and a belt see size chart!\n Will feature sorority shield",
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_993ff25e-ce21-40ed-9f01-75c323344296.jpg?v=1654948013",
       "purchaseURL": "https://prettyaspearlz.com/products/she-got-flare",
+      "price": 95,
+      "stars": 5,
       "reviews": [
         {
           "stars": 3,
@@ -21,7 +20,8 @@
           "stars": 5,
           "reviewDate": "2024-06-15T04:01:42.738Z"
         }
-      ]
+      ],
+      "id": "c5c2c229-f645-4673-95c7-88f3dd220759"
     },
     {
       "id": "4c2236b9-be3e-4516-972c-abf089e5ea69",
@@ -133,6 +133,23 @@
       "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_42eb9a47-1b13-4a54-9c9b-ad92986d6e8d.jpg?v=1658769490",
       "purchaseURL": "https://prettyaspearlz.com/products/jump-in-to-it",
       "reviews": []
+    },
+    {
+      "id": "d35b",
+      "name": "Cobblestone 2.0",
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/files/IMG-6817.png?v=1718974849",
+      "stars": 5,
+      "price": 80,
+      "description": "Bodycon! Size up if you don’t want the bodycon fit\n\n\nThis midi/ maxi long dress is a polyester spandex rayon mix! Great stretch super sexy and classy. Fits your curves!\n\nThese items are true to size order your size, as per the sizing number displayed.",
+      "purchaseURL": "https://prettyaspearlz.com/products/cobblestone-blues",
+      "reviews": [
+        {
+          "stars": 5,
+          "summary": "This is the Best Dress ever",
+          "detailedReview": "This is some review text that we typed just for the demo video. ",
+          "reviewDate": "2024-06-23T01:14:49.879Z"
+        }
+      ]
     }
   ]
 }

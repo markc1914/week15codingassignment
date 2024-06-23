@@ -26,6 +26,7 @@ export default function StyleEditForm(props) {
   }, []);
 
 
+  let element = <></>;
   const survey = new Model(styleEditModel);
   survey.applyTheme(BorderlessDark);
   survey.onComplete.add(surveyComplete);
@@ -38,8 +39,12 @@ export default function StyleEditForm(props) {
       price: styleToEdit.price,
       stars: styleToEdit.stars
     }
+    element = <Survey model={survey} />
+  } else {
+    element = <></>
   }
+
   return (
-    <Survey model={survey} />)
+    element)
 
 }
