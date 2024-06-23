@@ -14,6 +14,12 @@
           "summary": "Shorter than I expected",
           "detailedReview": "Varius duis at consectetur lorem. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Congue mauris rhoncus aenean vel elit scelerisque mauris. Et malesuada fames ac turpis egestas integer. Arcu ac tortor dignissim convallis aenean. Netus et malesuada fames ac turpis egestas. Rhoncus est pellentesque elit ullamcorper. Facilisis mauris sit amet massa vitae tortor condimentum. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Amet porttitor eget dolor morbi. Neque convallis a cras semper auctor neque vitae tempus. Donec enim diam vulputate ut. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Vitae congue eu consequat ac felis donec. Massa tempor nec feugiat nisl pretium fusce id.",
           "reviewDate": "2024-06-14T01:01:27.121Z"
+        },
+        {
+          "summary": "The best ever",
+          "detailedReview": "This is the best ever",
+          "stars": 5,
+          "reviewDate": "2024-06-15T04:01:42.738Z"
         }
       ]
     },
@@ -117,6 +123,16 @@
           "reviewDate": "2024-06-14T00:50:55.782Z"
         }
       ]
+    },
+    {
+      "id": "de2b",
+      "price": 65,
+      "name": "Jump In to it jumpsuit",
+      "description": "One piece jumpsuit designed for your inner fly! Some have the dove some the shield. All have great stretch, fits up to size 2X, great for tall girls",
+      "stars": 5,
+      "imageURL": "https://prettyaspearlz.com/cdn/shop/products/image_42eb9a47-1b13-4a54-9c9b-ad92986d6e8d.jpg?v=1658769490",
+      "purchaseURL": "https://prettyaspearlz.com/products/jump-in-to-it",
+      "reviews": []
     }
   ]
 }
